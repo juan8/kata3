@@ -20,4 +20,5 @@ public class Histogram <T> {
         map.put(key, map.containsKey(key) ? map.get(key) + 1 : 1);
     }
     
+    
 }
